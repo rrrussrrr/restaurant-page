@@ -9,9 +9,6 @@
 
 body {
     margin:0;
-    background-image: url('main.jpg');
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 #content{
@@ -20,11 +17,12 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
 .header{
     background-color: steelblue;
-    height: 20vh;
+    height: 6vh;
     width:100%;
     display:flex;
     justify-content: space-evenly;
@@ -45,6 +43,14 @@ body {
 .main{
     display:flex;
     justify-content: center;
+    align-items: center;
+
+    background-image: url('main.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-grow: 1;
+
 }
 
 .textbox{
