@@ -29,8 +29,8 @@ function render() {
     copy.textContent = dish.description;
 
     const price = document.createElement('p');
-    copy.classList.add('price');
-    copy.textContent = dish.price;
+    price.classList.add('price');
+    price.textContent = dish.price;
 
     textbox.appendChild(name);
     textbox.appendChild(copy);
